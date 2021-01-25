@@ -2,7 +2,10 @@
 
 ### Introduction
 
-An analysis of a dvd rental business using PostgreSQL 
+An analysis of a dvd rental business using PostgreSQL
+<p align="center">
+	<img src="0001.jpg">
+</p>
 
 ### Project Details
 

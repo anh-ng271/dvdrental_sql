@@ -125,26 +125,3 @@ ORDER BY 7 DESC
 
 
 --Who are the inactive customers? When was the last time they rented a movie?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

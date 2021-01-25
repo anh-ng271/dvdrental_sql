@@ -2,15 +2,6 @@
 --Name: Anh Nguyen
 --Date: January 20, 2021
 
--- Dataset: the database has 15 tables 
---Objectives:
-	-- What are the most and the least rented movie genres? What are the total sales of each genre? How many time peole rent each genre?
-	-- Who are the top customers per ammount paid?
-	-- Who are the inactive custommers? When was the last time they have made a rental? 
-	-- How many rented films were returned late, early, and on time?
-	-- What are the customer base by country?
-	-- What are total sales by each store?
-
 --Question 1: What are the most and the least rented film genres by demands? What are the total sales of each genre?
 -- Category>film_category>film>inventory>rental>customer>payment
 SELECT c.name AS genres, COUNT (cu.customer_id) AS total_demand

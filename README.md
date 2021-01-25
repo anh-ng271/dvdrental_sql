@@ -4,7 +4,7 @@
 
 An analysis of a dvd rental business using PostgreSQL
 <p align="center">
-	<img src="0001.jpg" | width = "100" | height = "100">
+	<img src="0001.jpg" | width = "1000" | height = "1000">
 </p>
 
 ### Project Details

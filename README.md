@@ -7,7 +7,7 @@ In this analysis, I will go through my data analysis process by analyzing an ent
 
 I used Postgres relational database system to load the sample database and write queries. Data source and SQL scripts is posted on the repository.  
 
-**About the sample database:** This database is comprised of 15 tables representing many business aspects of the company. The [Entity Relationship Model] (https://sp.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf). (ERM) depicts this databse schema. 
+**About the sample database:** This database is comprised of 15 tables representing many business aspects of the company. The [Entity Relationship Model](https://sp.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf). (ERM) depicts this databse schema. 
 	
 ### Objectives 
 Supposed I was a newly hired data analyst for the DVD rental company, and I was asked to generated , 

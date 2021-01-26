@@ -1,8 +1,11 @@
-# dvdrental_sql
+# Data Analysis Using SQL 
 
 ### Introduction
+This is data analysis project to showcase my analytical thinking ability and SQL knowledge. I used Postgres relational database system to load the sample database and write queries. 
 
-An analysis of a dvd rental business using PostgreSQL
+- About the sample database: 
+	
+
 <p align="center">
 	<img src="0001.jpg" | width = "500" | height = "500">
 </p>

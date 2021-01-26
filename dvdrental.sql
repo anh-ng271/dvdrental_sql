@@ -48,6 +48,20 @@ JOIN payment p
 USING (staff_id)
 GROUP BY s.store_id;
 
+-- What are weekly sales of each store?
+SELECT  sub.week,
+		SUM (CASE WHEN sub.store = 1 THEN sub.sale ELSE NULL END) AS store_1_sales,
+		SUM (CASE WHEN sub.store = 2 THEN sub.sale ELSE NULL END) AS store_2_sales
+FROM
+	(SELECT s.store_ID AS store, DATE_TRUNC ('week', p.payment_date) as week, p.amount AS sale
+		FROM store s
+		JOIN staff sf
+		USING (store_id)
+		JOIN payment p
+		USING (staff_id)) sub
+GROUP BY 1
+ORDER BY 1;
+
 	--What are the difference between store 1 and store 2 by sale per genre?
 
 SELECT i.store_id AS store,

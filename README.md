@@ -16,8 +16,21 @@ The DVD rental company acquires two physical stores in which one employee manage
 	- Which store do better in terms of sales and customer base by weeks?
 	- What are the most popular genres by each store?
 
-I first identified what tables I need to join to answer these sub questions. Ther are in the order 
-	>store >staff >payment >rental >inventory >film >film_category >category
+I first identified what tables I need to join to answer these sub questions. 
+They are in the order **store >staff >payment >rental >inventory >film >film_category >category** 
+
+	> Total sales of each store for a fiscal year
+		---   | ---        | 
+		1     | 30252.12   | 
+		2     | 31059.92   |
+
+It seems like Store 2 does better than Store 1 by 1.3% this year. This first query gives us a general idea of the business revenues, but I wanted to take a look at the revenue trends on a weekly basic.
+
+![result_weekly_sales](https://user-images.githubusercontent.com/77992392/106069436-5a961900-60b7-11eb-9e84-8478ed1525a9.PNG) 	
+	
+
+
+
 ###### Films on Demand
 	- What are the most and the least rented movie genres by demand?
 	- What genres drive the most sales and customers' interest? 

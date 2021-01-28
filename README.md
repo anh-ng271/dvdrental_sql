@@ -7,7 +7,7 @@ In this analysis, I will go through my data analysis process by analyzing an ent
 **About the sample database:** This database is comprised of 15 tables representing many business aspects of the company. The [Entity Relationship Model](https://sp.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf). (ERM) depicts this database schema. Data source and SQL scripts is posted on the repository.
 	
 ### Analysis  
-These are three areas I want to explore in the DVD rental company: their physical stores, films on demand, the customer base?
+These are three areas I want to explore in the DVD rental company: their physical stores, films on demand, the customer base.
 
 #### How is business doing in their physical stores? 
 The DVD rental company acquires two physical stores in which one employee manages one store. below are the sub questions:
@@ -21,22 +21,19 @@ The DVD rental company acquires two physical stores in which one employee manage
 	- What are the most popular genres by each store?
 
 >
-Store 1
 ![q1c](https://user-images.githubusercontent.com/77992392/106076243-0f363780-60c4-11eb-9320-3863aa273b7b.PNG)
 
 > 
-Store 2
 ![q1cc](https://user-images.githubusercontent.com/77992392/106076617-c468ef80-60c4-11eb-8a38-828942813259.PNG)
 
-
-#### Films on Demand
+#### What are trends in Films on Demand?
 	- What genres drive the most sales and customers' interest? 
 ![q2a](https://user-images.githubusercontent.com/77992392/106077237-09d9ec80-60c6-11eb-8cae-5af71a806c40.PNG)
 
 	- How many distinct customers for each genre?
 ![q2b](https://user-images.githubusercontent.com/77992392/106077364-3ee63f00-60c6-11eb-9ddf-d60d51968a83.PNG)
 
-#### Customers: 	
+#### What characteristics of the company's customers base? 	
 	- How many rented films were returned late, early, and on time? 
 ![q3a](https://user-images.githubusercontent.com/77992392/106078298-047da180-60c8-11eb-812f-4f112a5faaca.PNG)
 
